@@ -2,8 +2,10 @@ package JavaPractice;
 
 import java.util.Scanner;
 
-public class TwoBinaryNumbers {
-    public static void main(String[] args) {
+public class MultiplyTwoBinaryNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
 
         // Input two binary numbers
@@ -18,7 +20,7 @@ public class TwoBinaryNumbers {
         int decimal2 = Integer.parseInt(binary2, 2);
 
         // Sum the decimal numbers
-        int sumDecimal = decimal1 + decimal2;
+        int sumDecimal = decimal1 * decimal2;
 
         // Convert the sum back to binary
         String sumBinary = Integer.toBinaryString(sumDecimal);
@@ -26,4 +28,6 @@ public class TwoBinaryNumbers {
         // Output the result
         System.out.println("Sum of binary numbers: " + sumBinary);
     }
-}
+	}
+
+
